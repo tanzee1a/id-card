@@ -1,0 +1,15 @@
+html {
+  background: #edf1e3;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  width: 100%;
+  min-height: 100svh;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+}

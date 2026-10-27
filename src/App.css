@@ -400,3 +400,23 @@
   outline: 3px solid var(--ink);
   outline-offset: 3px;
 }
+
+@media (max-width: 600px) {
+  .page {
+    padding: 16px 14px;
+  }
+
+  .profile {
+    padding-top: 20px;
+    padding-bottom: 18px;
+  }
+
+  .profile .portrait-placeholder {
+    min-height: 140px;
+    margin-bottom: 18px;
+  }
+
+  .browser-card > .connection-links {
+    margin-bottom: 20px;
+  }
+}
