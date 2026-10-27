@@ -16,7 +16,9 @@
   background-image:
   linear-gradient(
     to bottom,
-    transparent 70%,
+    #edf1e3 0%,
+    transparent 8%,
+    transparent 92%,
     #edf1e3 100%
   ),
   repeating-linear-gradient(
