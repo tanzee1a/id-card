@@ -30,12 +30,16 @@ function App() {
         </div>
 
         <header className="profile">
-          <div className="portrait-placeholder" aria-hidden="true">
-            <span className="portrait-initials">TN</span>
+          <div className="portrait">
+            <img
+              src="/avatar.png"
+              alt="Illustration of Tanzeela"
+              className="portrait-image"
+            />
           </div>
 
           <h1 id="card-name">Tanzeela Nizami</h1>
-          <p>Computer Science · University of Houston</p>
+          <p>Computer Science @ University of Houston</p>
         </header>
 
         <nav className="connection-links" aria-label="Connect with Tanzeela">
